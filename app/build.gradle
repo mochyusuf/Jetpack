@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+
     def androidXVersion = '1.0.0'
     def androidXTestVersion = '1.1.0'
     def androidXAnnotations = '1.0.1'
@@ -58,6 +59,7 @@ dependencies {
     def constraintlayoutVersion = '1.1.3'
     def supportV4Version = '1.0.0'
     def room_compilerVersion = '1.0.0'
+    def paging_runtimeVersion = '2.1.0'
 
     // Dependencies for Android Support
     implementation "androidx.appcompat:appcompat:$appCompatVersion"
@@ -68,6 +70,7 @@ dependencies {
     implementation "androidx.annotation:annotation:$androidXAnnotations"
     implementation "androidx.legacy:legacy-support-v4:$androidXLegacySupport"
     implementation "de.hdodenhof:circleimageview:$circleimageviewVersion"
+    implementation "androidx.paging:paging-runtime:$paging_runtimeVersion"
 
     //retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"

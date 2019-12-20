@@ -27,7 +27,6 @@ import mocha.yusuf.jetpack3.UI.Movie.MovieAdapter;
 import mocha.yusuf.jetpack3.UI.Movie.MovieViewModel;
 import mocha.yusuf.jetpack3.ViewModel.ViewModelFactory;
 
-
 public class FavoriteMovieFragment extends Fragment {
     private FavoriteMovieAdapter adapter;
     RecyclerView recyclerView;
