@@ -26,6 +26,10 @@
     <string name="appwidget_text">Movie Banner</string>
     <string name="empty_text">No Data</string>
     <string name="error">Application Error</string>
+    <string name="movie_unfavorite">Movie delete from favorite</string>
+    <string name="movie_favorite">Movie add to favorite</string>
+    <string name="tv_unfavorite">Tv delete from favorite</string>
+    <string name="tv_favorite">Tv add to favorite</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

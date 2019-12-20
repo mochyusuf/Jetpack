@@ -1,4 +1,4 @@
-package mocha.yusuf.jetpack3.UI.TV;
+package mocha.yusuf.jetpack3.UI.Favorite.TV;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,8 +21,9 @@ import java.util.List;
 import mocha.yusuf.jetpack3.BuildConfig;
 import mocha.yusuf.jetpack3.Data.Source.Local.Entity.TVEntity;
 import mocha.yusuf.jetpack3.R;
+import mocha.yusuf.jetpack3.UI.TV.DetailTV;
 
-public class TVAdapter extends RecyclerView.Adapter<TVAdapter.ViewHolder>{
+public class FavoriteTVAdapter extends RecyclerView.Adapter<FavoriteTVAdapter.ViewHolder>{
     private Context context;
     private List<TVEntity> tvs;
 
@@ -32,7 +33,7 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.ViewHolder>{
         this.tvs.addAll(tvs);
     }
 
-    public TVAdapter(Context context) {
+    public FavoriteTVAdapter(Context context) {
         this.context = context;
         tvs = new ArrayList<>();
     }

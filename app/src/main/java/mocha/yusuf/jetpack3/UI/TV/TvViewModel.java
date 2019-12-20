@@ -27,4 +27,9 @@ public class TvViewModel extends ViewModel {
     void setTvAction(String action) {
         tv.setValue(action);
     }
+
+    public void toggleTvFavorite(TVEntity tvEntity) {
+        final boolean favorite = !tvEntity.isFavorite();
+        repository.set_favorite_tv(tvEntity, favorite);
+    }
 }

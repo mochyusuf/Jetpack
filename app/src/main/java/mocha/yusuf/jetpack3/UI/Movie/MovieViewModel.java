@@ -25,4 +25,9 @@ public class MovieViewModel extends ViewModel {
     public void setMovieAction(String action) {
         movie.setValue(action);
     }
+
+    public void toggleMovieFavorite(MovieEntity movieEntity) {
+        final boolean favorite = !movieEntity.isFavorite();
+        repository.set_favorite_movie(movieEntity, favorite);
+    }
 }
